@@ -15,7 +15,7 @@ function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Bruschetta Recipe</Text>
-      <Image style={styles.image}source={require('C:/Users/madyl/HealthyRecipes/assets/bruschetta.png')} />
+      <Image style={styles.image}source={require('./assets/bruschetta.png')} />
       <TextInput style={styles.textInput}
           placeholder="Enter the Number of Servings"
           onChangeText={newCount => setCount(newCount)}
